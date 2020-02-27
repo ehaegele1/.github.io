@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>FLIX</title>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+    <script src="app.js" charset="utf-8"defer></script>
+  </head>
+  <body>
+    <div class="top">
+    <h1>FLIX</h1>
+    </div>
+    <div class="middle">
+    <form>
+    <input type = 'text' placeholder='TYPE MOVIE HERE'/>
+    <input type = "submit" value="GET MOVIE INFO"/>
+    </form>
+    <dl>
+            <dt>TITLE:</dt>
+            <dd id="title"></dd>
+
+            <dt>YEAR:</dt>
+            <dd id="year"></dd>
+
+            <dt>RATING:</dt>
+            <dd id="rating"></dd>
+
+        </dl>
+
+
+    <! ----- ===== CAROUSEL CONTAINER ===== ----->
+    <div class="carousel-container">
+      <div class="carousel-button previous">
+
+      <span class="lnr lnr-chevron-left"></span>
+
+    </div>
+    <div class="carousel-imgs">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/81-NJGwcsGL._SL1400_.jpg" alt="">
+      <img src="https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg" alt="">
+      <img src="https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg" alt="">
+
+    </div>
+    <div class="carousel-button next">
+
+        <span class="lnr lnr-chevron-right"></span>
+      </div>
+          </div>
+    <footer>
+    </footer>
+
+
+
+  </body>
+</html>
